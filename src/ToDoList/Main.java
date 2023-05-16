@@ -20,12 +20,10 @@ public class Main {
             name = scanner.nextLine();
 
             if (name.equals("/x")) {
-                Task task = new Task();
-                task.setName(name);
-                task.setDescription(description);
-                task.setPriority(priority);
-                System.out.println(task);
                 return;
+            }
+            if (name.equals("/a")) {
+                System.out.println("Add a new task");
             }
         }
 
